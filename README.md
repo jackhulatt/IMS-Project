@@ -9,29 +9,32 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You will need at a minimum Java Version 8 (although more recent versions of Java will also work) and a command line interface
+such as Windows PowerShell to run this program
 
-```
-Give examples
-```
+To develop this program and work on its features, you will require a compatible Java IDE (Integrated Development Environment) and Maven installed
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To install the program on your device, first you must clone down this repository from GitHub to your local IDE
 
 ```
-Give the example
+!(https://imgur.com/a/dkVe7mj)
 ```
 
-And repeat
+Your IDE should be able to import directly from a GitHub link and automatically open the project. If not, clone the repository down
+using a Command Line Interface and open it manually
 
 ```
-until finished
+To clone using a CLI, in your command line type:
+
+git clone https://github.com/jackhulatt/IMS-Project.git
+
+This will clone the project to your local system, you can then navigage to it in your IDE 
+to open it manually
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+To create a local connection to the required database, an installation of MySQL 8 is necessary.
 
 ## Running the tests
 
@@ -75,6 +78,13 @@ We use [SemVer](http://semver.org/) for versioning.
 ## Authors
 
 * **Chris Perrins** - *Initial work* - [christophperrins](https://github.com/christophperrins)
+* **Jack Hulatt** - *Completed Project* - [jackhulatt](https://github.com/jackhulatt)
+
+## Jira Workboard Link
+
+https://jackhulatt.atlassian.net/jira/software/projects/IMS/boards/2/roadmap
+
+Access will be granted as soon as I see the request
 
 ## License
 
@@ -84,6 +94,7 @@ This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Morgan Walsh
+* All my colleagues at QA
+* StackOverflow
+* Tim Bulchalka
