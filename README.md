@@ -30,7 +30,8 @@ To clone using a CLI, in your command line type:
 
 git clone https://github.com/jackhulatt/IMS-Project.git
 
-This will clone the project to your local system, you can then navigage to it in your IDE to open it manually
+This will clone the project to your local system, you can then navigage to it in your IDE 
+to open it manually
 ```
 
 To create a local connection to the required database, an installation of MySQL 8 is necessary.
