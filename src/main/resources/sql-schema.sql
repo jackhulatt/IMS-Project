@@ -13,7 +13,6 @@ create table if not exists `orders` (
     `id` int not null auto_increment,
     `customer_id` int not null,
     `order_date` date,
-    `order_arrivalDate` date,
     `order_price` double,
     PRIMARY KEY (`id`),
     FOREIGN KEY (customer_id) REFERENCES customers(id)
