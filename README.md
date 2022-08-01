@@ -1,7 +1,8 @@
 Coverage: 34%
 # Project Title
 
-One Paragraph of project description goes here
+A CRUD (Create, Read, Update, Delete) Inventory Management System program that runs in a Command Line Interface (CLI)
+, using a MySQL 8 Database to store and update data for the customers, items, and orders.
 
 ## Getting Started
 
@@ -38,12 +39,16 @@ To create a local connection to the required database, an installation of MySQL 
 
 ## Running the tests
 
-Explain how to run the automated tests for this system. Break down into which tests and what they do
+Due to medical circumstances and a lack of time, I have been unable to implement any additional tests other than the default ones.
+I chose to focus my limited time on ensuring the base functionality of the product was functional. All tests included with the base
+project pass with no problems.
 
 ### Unit Tests 
 
-Explain what these tests test, why and how to run them
+Functioning tests cover the Customer class, to ensure the functionality of the customer class to create a customer with pre-defined values.
 
+Navigate to the tests folder, and right-click on the Customer tests and click run to run the tests. If all tests are successful, it 
+will highlght in green.
 ```
 Give an example
 ```
@@ -65,7 +70,8 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To deploy this program, you must run it through a Command Line Interface (CLI) with MySQL Workbench 8 open on your system.
+You will then be able to navigate the program in your CLI.
 
 ## Built With
 
